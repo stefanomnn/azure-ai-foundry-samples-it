@@ -31,7 +31,7 @@ namespace AzureAiSamples
         // Video Indexer
         public static string VideoIndexerAccountId { get; private set; } = string.Empty;
         public static string VideoIndexerToken { get; private set; }
-        public static string VideoIndexerAccuoindRegion { get; private set; }
+        public static string VideoIndexerRegion { get; private set; }
         public static string VideoIndexerLocation { get; private set; } = string.Empty;
 
         public static void Load()
@@ -55,7 +55,7 @@ namespace AzureAiSamples
        
             VideoIndexerAccountId = configuration["AzureAI:VideoIndexerAccountId"] ?? string.Empty;
             VideoIndexerToken = configuration["AzureAI:VideoIndexerToken"] ?? string.Empty;
-            VideoIndexerAccuoindRegion = configuration["AzureAI:VideoIndexerAccuoindRegion"] ?? string.Empty;
+            VideoIndexerRegion = configuration["AzureAI:VideoIndexerRegion"] ?? string.Empty;
 
             
 

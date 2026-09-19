@@ -83,9 +83,8 @@ Raccolta di **sample didattici in C#** per integrare un'applicazione con **Azure
     "ContentSafetyKey": "CONTENT-SAFETY-KEY",
     "ApplicationInsightsConnectionString": "InstrumentationKey=...;IngestionEndpoint=...",
     "VideoIndexerAccountId": "account-id-video-indexer",
-    "VideoIndexerToken": "token-generato-da-management-api",
-    "VideoIndexerAccuoindRegion": "eastus2",
-    "VideoIndexerLocation": "eastus2"
+    "VideoIndexerToken": "token-generato-da-management-api",    
+    "VideoIndexerRegion": "eastus2"
   },
   "Models": {
     "GPT5Mini": "gpt-5-mini",
@@ -110,7 +109,7 @@ Raccolta di **sample didattici in C#** per integrare un'applicazione con **Azure
 | `ApplicationInsightsConnectionString` | Application Insights → Overview |
 | `VideoIndexerAccountId` | Video Indexer → Overview |
 | `VideoIndexerToken` | Video Indexer → Management → Management API (genera token) |
-| `VideoIndexerAccuoindRegion` / `VideoIndexerLocation` | Regione della risorsa Video Indexer |
+| `VideoIndexerRegion`  | Regione della risorsa Video Indexer |
 | `Models.*` | Nomi dei deployment dentro Azure AI Foundry |
 
 ## 🚀 Come eseguire
